@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Jarosław 👋
+# Hi, I'm Jarek
 ### **Java / Backend Developer & Ex-Manager**
 
 [![](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jaroslaw-sendecki)
@@ -15,7 +15,8 @@
 
 ## 🚀 About Me
 
-* 💻 **Backend Developer** specialized in designing clean, scalable, and secure REST API architectures (**Java 17/21**, **Spring Boot 3**, **Spring Security**, **AWS**).
+* 💻 **Backend Developer** building secure REST APIs and **event-driven microservices** (**Java 17/21**, **Spring Boot 3/4**, **Spring Cloud**, **Kafka**, **Spring Security**, **Keycloak**, **AWS**).
+* 🛡️ **I care about how systems behave when things fail:** transactional outbox, idempotent consumers, timeouts, circuit breakers and tests that run against real PostgreSQL and Kafka.
 * 🎯 **Management & Operations:** Background in team management turned into strong organizational skills. I adapt quickly to **Scrum workflows** (Jira, Gitflow), focus on **clear communication**, and know how to deliver **quality code when time is tight**.
 * 🎓 **Education & Languages:** A Master of Arts in English Philology | **English C2** (fluent collaboration in international teams) | **Polish Native/C2**.
 * 📍 Based in **Kraków, Poland** – open to hybrid, on-site, and remote opportunities.
@@ -53,6 +54,13 @@
 ---
 
 ## 📌 Featured Projects
+ 
+### 🎓 [LinguaHub: language-tutoring platform (event-driven microservices)](https://github.com/Senjars/linguahub)
+Teachers publish lesson slots, students book and pay for them, and an email confirms it. Built as a gateway, Eureka and four services, with a focus on staying consistent when things fail.
+* **Tech Stack:** Java 21 · Spring Boot 4 · Spring Cloud (Gateway, Eureka, OpenFeign) · Kafka · Keycloak · Resilience4j · PostgreSQL · Liquibase · Stripe · Testcontainers · GitHub Actions · Docker Compose
+* **Key Features:** Transactional outbox with idempotent consumers, a circuit breaker with a timeout budget on the payment call, role-based security through Keycloak, database-level invariants against overbooking, schema versioned with Liquibase, and integration tests on real PostgreSQL and Kafka run by CI.
+
+---
 
 ### 🚗 [Car Sharing Service API](https://github.com/Senjars/jv-portfolio-car-sharing-service)
 Production-ready REST API for a vehicle rental platform featuring rental lifecycle management, RBAC access control, and payment automation.
